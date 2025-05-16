@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 95px;
+
+  // .footer__container
+  .footer &__container {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  // .footer__details
+  &__details {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+
+    span,
+    a {
+      color: currentColor;
+    }
+
+    a {
+      margin-left: 10px;
+    }
+  }
+}
+
+.end-words {
+  max-width: 408px;
+  margin: 0 auto;
+  margin-top: 65px;
+
+  p {
+    /* Письма — это сокровищница чувств, где любовь сияет ярче всего */
+    font-size: 48px;
+    line-height: 26px;
+    color: #102836;
+  }
+}
